@@ -1,17 +1,12 @@
-/* package codechef; // don't place package name! */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
-/* Name of the class has to be "Main" only if the class is public. */
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		int [] threeMax = {0,0,0};
-		int[] arr = {144,-7,-3,18,17,15,-8,7,541};
+	    int [] threeMax = {0,0,0};
+	    int[] arr = {144,-7,-3,18,17,15,-8,7,541};
 	    for(int i=0;i<arr.length;i++){
 	        findThreeMax(threeMax, arr[i]);
 	    }
